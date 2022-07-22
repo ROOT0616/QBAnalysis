@@ -1,14 +1,14 @@
 import csv
-import openpyxl
 import os
+import openpyxl
 
-day = "20220701"
-# txt = "./QBAnalysis/" + day + ".txt"
-# csvg = "./QBAnalysis/" + day + ".csv"
-# xlsx = "./QBAnalysis/data.xlsx"
-txt = day + ".txt"
-csvg = day + ".csv"
-xlsx = "./data.xlsx"
+day = "20220721"
+txt = "./QBAnalysis/" + day + ".txt"
+csvg = "./QBAnalysis/" + day + ".csv"
+xlsx = "./QBAnalysis/data.xlsx"
+# txt = day + ".txt"
+# csvg = day + ".csv"
+# xlsx = "./data.xlsx"
 
 # if os.path.exists(xlsx):
 #   print('yes')
