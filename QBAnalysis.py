@@ -2,7 +2,7 @@ import csv
 import os
 import openpyxl
 
-day = "20220721"
+day = "20220724"
 txt = "./QBAnalysis/" + day + ".txt"
 csvg = "./QBAnalysis/" + day + ".csv"
 xlsx = "./QBAnalysis/data.xlsx"
