@@ -2,19 +2,21 @@ import csv
 import openpyxl
 import os
 
-day = "629712"
-txt = "./QBAnalysis/" + day + ".txt"
-txtmine = "./QBAnalysis/" + day + "mine.txt"
-csvg = "./QBAnalysis/" + day + ".csv"
-csvgmine = "./QBAnalysis/" + day + "mine.csv"
-xlsx = "./QBAnalysis/daydata.xlsx"
+day = "713726"
+# txt = "./QBAnalysis/" + day + ".txt"
+# txtmine = "./QBAnalysis/" + day + "mine.txt"
+# csvg = "./QBAnalysis/" + day + ".csv"
+# csvgmine = "./QBAnalysis/" + day + "mine.csv"
+# xlsx = "./QBAnalysis/daydata.xlsx"
+txt = day + ".txt"
+txtmine = day + "mine.txt"
+csvg = day + ".csv"
+csvgmine = day + "mine.csv"
+xlsx = "./daydata.xlsx"
 
 #置換する文字列を指定
 Henkan_mae = ['122','154','186','218','250','282','314','346','378','410','442','474','506','538']
 Henkan_go = ['7/13','7/14','7/15','7/16','7/17','7/18','7/19','7/20','7/21','7/22','7/23','7/24','7/25','7/26']
-# txt = day + ".txt"
-# csvg = day + ".csv"
-# xlsx = "./data.xlsx"
 
 # if os.path.exists(xlsx):
 #   print('yes')
